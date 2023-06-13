@@ -1,0 +1,13 @@
+package com.robson.robson;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RobsonApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RobsonApplication.class, args);
+	}
+
+}
