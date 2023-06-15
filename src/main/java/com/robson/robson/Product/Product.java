@@ -10,10 +10,17 @@ public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id; 
+    public String brand;
     public String name;
     public float price;
     public int amount;
 
+    public String getBrand() {
+        return brand;
+    }
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
     public Long getId() {
         return id;
     }
